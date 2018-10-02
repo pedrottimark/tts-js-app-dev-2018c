@@ -3,7 +3,7 @@
 Each directory has example files from the class on that date.
 
 | Date | Lesson | Subject |
-| --: | ---: | --- |
+| :--- | ---: | :--- |
 | 2018-10-02 | 1 | variables and statements |
 | 2018-10-04 | 2 | arrays and objects |
 | 2018-10-09 | 3 | functions, part 1 |
