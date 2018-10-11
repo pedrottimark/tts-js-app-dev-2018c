@@ -1,4 +1,4 @@
-# functions, part 1
+# Lesson 3: functions, part 1
 
 ## Learn git, part 3
 
