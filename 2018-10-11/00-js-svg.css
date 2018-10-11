@@ -1,0 +1,16 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  height: 400px;
+  background-color: #000000; /* black */
+}
+
+g {
+  fill: none;
+  stroke: #f7df1e; /* yellow */
+  stroke-width: 0.095;
+}
