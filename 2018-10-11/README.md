@@ -229,7 +229,7 @@ The [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
     * Comment out the comments: `///*` and `//*/`
 4. In Terminal: `node 11-array-filter.js`
 
-## 12-array-map
+## 12-array-filter
 
 The [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method is an idiom in a **pure** function to delete an item from an array.
 
