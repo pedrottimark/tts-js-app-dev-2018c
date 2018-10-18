@@ -1,0 +1,51 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h2, ul {
+  margin-right: 1rem;
+}
+
+h2, li {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+h3, p {
+  margin-top: 0.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  font-size: 1.25rem;
+  line-height: 1.6667rem;
+  width: 15em;
+}
+
+img {
+  width: 198px;
+  height: 132px;
+}
+
+a {
+  text-decoration: none;
+}
+
+abbr {
+  font-size: 1rem;
+}
