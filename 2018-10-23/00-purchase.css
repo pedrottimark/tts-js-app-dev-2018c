@@ -1,0 +1,123 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.5rem;
+}
+
+fieldset {
+  margin-top: 1rem;
+}
+
+fieldset, table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+table {
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+th {
+  font-weight: normal;
+  border-color: hsl(0, 0%, 50%);
+  border-width: 1px;
+  border-bottom-style: solid;
+}
+
+table .quantity {
+  min-width: 6rem;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+span[aria-hidden="true"] {
+  visibility: hidden;
+}
+
+table .description {
+  text-align: left;
+  min-width: 16rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+table .price, table .cost {
+  text-align: right;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+table .cost {
+  min-width: 4rem;
+}
+
+label {
+  display: inline-block;
+  min-width: 6rem;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+}
+
+input, label + span {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+input {
+  width: 4rem;
+}
+
+button {
+  min-width: 6rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+form[name="product"] button[type="submit"] {
+  color: hsl(240, 100%, 25%);
+  border-color: hsl(240, 100%, 25%);
+  background-color: hsl(240, 100%, 90%);
+}
+
+form[name="quantity"] button[type="submit"] {
+  color: hsl(90, 100%, 25%);
+  border-color: hsl(90, 100%, 25%);
+  background-color: hsl(90, 100%, 90%);
+}
+
+form[name="quantity"] button[type="reset"] {
+  color: hsl(30, 100%, 25%);
+  border-color: hsl(30, 100%, 25%);
+  background-color: hsl(30, 100%, 90%);
+}
+
+form[name="product"] button[type="submit"]:disabled,
+form[name="quantity"] button[type="submit"]:disabled,
+form[name="quantity"] button[type="reset"]:disabled {
+  background-color: transparent;
+}
+
+.hidden {
+  visibility: hidden;
+}
