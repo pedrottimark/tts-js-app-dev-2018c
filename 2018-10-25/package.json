@@ -1,0 +1,9 @@
+{
+  "name": "lesson-8-javascript-tools-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lesson 8: JavaScript tools, part 1",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
