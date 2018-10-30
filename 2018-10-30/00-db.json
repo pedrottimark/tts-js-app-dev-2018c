@@ -1,0 +1,34 @@
+{
+  "doers": [
+    {
+      "id": "lesson-9",
+      "name": "Lesson 9: asynchronous JavaScript, part1"
+    }
+  ],
+  "items": [
+    {
+      "id": 90,
+      "doerId": "lesson-9",
+      "completed": true,
+      "text": "Read server code that responds to `GET` and `POST` requests."
+    },
+    {
+      "id": 91,
+      "doerId": "lesson-9",
+      "completed": false,
+      "text": "Read and write requests which apply the REST API pattern."
+    },
+    {
+      "id": 92,
+      "doerId": "lesson-9",
+      "completed": false,
+      "text": "Call `fetch` to make `GET`, `DELETE`, `PUT`, and `POST` requests."
+    },
+    {
+      "id": 93,
+      "doerId": "lesson-9",
+      "completed": false,
+      "text": "Write promise chains to handle success or failure of `fetch` requests."
+    }
+  ]
+}

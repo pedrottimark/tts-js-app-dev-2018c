@@ -1,0 +1,16 @@
+{
+  "name": "lesson-9-asynchronous-js-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lesson 9: asynchronous JavaScript, part 1",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch --delay=1000 ./00-db.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "isomorphic-fetch": "2.2.1",
+    "json-server": "0.14.0",
+    "pretty-format": "23.6.0"
+  }
+}

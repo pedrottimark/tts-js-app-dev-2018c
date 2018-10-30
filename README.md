@@ -12,8 +12,8 @@ Each directory has example files from the class on that date.
 | 2018-10-18 | 6 | functions and objects |
 | 2018-10-23 | 7 | JavaScript in browsers |
 | 2018-10-25 | 8 | JavaScript tools, part 1 |
-| 2018-10-30 | 9 | Asynchronous JavaScript, part 1 |
-| 2018-11-01 | 10 | Asynchronous JavaScript, part 2 |
+| 2018-10-30 | 9 | asynchronous JavaScript, part 1 |
+| 2018-11-01 | 10 | asynchronous JavaScript, part 2 |
 | 2018-11-06 | 11 | JavaScript tools, part 2 |
 | 2018-11-08 | 12 | React, part 1 |
 | 2018-11-13 | 13 | React, part 2 |
