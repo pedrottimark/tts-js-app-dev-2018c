@@ -18,7 +18,7 @@ const convertFromJSON = response => {
 Promise.all([
   fetch(url0).then(convertFromJSON),
   fetch(url1).then(convertFromJSON)
-]).then().then(([
+]).then(([
   doer,
   items
 ]) => {
