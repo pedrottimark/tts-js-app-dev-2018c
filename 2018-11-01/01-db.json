@@ -1,0 +1,56 @@
+{
+  "doers": [
+    {
+      "id": "lesson-7",
+      "name": "JavaScript in browsers"
+    },
+    {
+      "id": "lesson-9",
+      "name": "asynchronous JavaScript, part 1"
+    }
+  ],
+  "items": [
+    {
+      "id": 70,
+      "doerId": "lesson-7",
+      "completed": false,
+      "text": "Render markup from data, also known as the state of the application."
+    },
+    {
+      "id": 71,
+      "doerId": "lesson-7",
+      "completed": false,
+      "text": "Add interactive behavior to rendered markup."
+    },
+    {
+      "id": 72,
+      "doerId": "lesson-7",
+      "completed": false,
+      "text": "Call `querySelector` method to find a descendant element in the tree structure.."
+    },
+    {
+      "id": 90,
+      "doerId": "lesson-9",
+      "completed": true,
+      "text": "Read server code that responds to `GET` and `POST` requests."
+    },
+    {
+      "id": 91,
+      "doerId": "lesson-9",
+      "completed": false,
+      "text": "Read and write requests which apply the REST API pattern."
+    },
+    {
+      "id": 92,
+      "doerId": "lesson-9",
+      "completed": false,
+      "text": "Call `fetch` to make `GET`, `DELETE`, `PUT`, and `POST` requests."
+    },
+    {
+      "id": 93,
+      "doerId": "lesson-9",
+      "completed": false,
+      "text": "Write promise chains to handle success or failure of `fetch` requests."
+    }
+  ]
+}
