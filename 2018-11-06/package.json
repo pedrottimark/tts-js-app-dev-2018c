@@ -1,8 +1,8 @@
 {
-  "name": "lesson-10-asynchronous-js-2",
+  "name": "lesson-11-asynchronous-js-2",
   "version": "1.0.0",
   "private": true,
-  "description": "Lesson 10: asynchronous JavaScript, part 2",
+  "description": "Lesson 11: asynchronous JavaScript, part 2",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
