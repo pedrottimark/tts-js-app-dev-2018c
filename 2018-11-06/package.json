@@ -1,0 +1,55 @@
+{
+  "name": "lesson-10-asynchronous-js-2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lesson 10: asynchronous JavaScript, part 2",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint",
+    "prettier": "prettier --write",
+    "start": "json-server --static ./dist --watch --delay=1000 ./db.json"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "array-callback-return": "error",
+      "eqeqeq": "error",
+      "no-extend-native": "error",
+
+      "no-console": "warn"
+    }
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "devDependencies": {
+    "css-loader": "1.0.1",
+    "dotenv": "6.1.0",
+    "eslint": "5.8.0",
+    "file-loader": "2.0.0",
+    "isomorphic-fetch": "2.2.1",
+    "json-server": "0.14.0",
+    "prettier": "1.14.3",
+    "pretty-format": "23.6.0",
+    "style-loader": "0.23.1",
+    "url-loader": "1.1.2",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2"
+  }
+}

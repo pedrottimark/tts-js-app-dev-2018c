@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+h1 img {
+  margin-left: 0.5rem;
+  height: 1em;
+  width: 1em;
+  margin-right: 0.75rem;
+}
+
+h1 span + span {
+  margin-left: 0.75rem;
+}
+
+form {
+  padding-bottom: 1.5rem;
+}
+
+form input {
+  margin-left: 2rem;
+}
+
+form input,
+td.text {
+  width: 40rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+td.completedness {
+  width: 2rem;
+  text-align: center;
+}
+
+td.delete {
+  padding-left: 0.75rem;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+}
+
+form button {
+  width: 4rem;
+  margin-left: 0.75rem;
+  background-color: hsl(120, 100%, 95%);
+}
+
+form button:disabled {
+  color: #cccccc;
+  background-color: transparent;
+}
+
+td.delete button {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  width: 4rem;
+  color: #ff0000;
+  background-color: hsl(0, 100%, 95%);
+}
+
+tr.completed td.delete button {
+  visibility: hidden;
+}
+
+form input,
+form button,
+tr.uncompleted td.text {
+  color: #008000;
+}
+
+tr.completed td.text {
+  color: #808080;
+}
+
+.waiting,
+form input:disabled {
+  background-color: #cccccc;
+}
