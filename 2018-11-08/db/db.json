@@ -1,0 +1,46 @@
+{
+  "opinions": [
+    {
+      "id": 1,
+      "authorid": "42165",
+      "workid": "110398",
+      "opinion": "liked"
+    },
+    {
+      "id": 2,
+      "authorid": "42165",
+      "workid": "239582",
+      "opinion": "disliked"
+    },
+    {
+      "id": 3,
+      "authorid": "42165",
+      "workid": "110399",
+      "opinion": "liked"
+    },
+    {
+      "id": 4,
+      "authorid": "42165",
+      "workid": "540799",
+      "opinion": "reading"
+    },
+    {
+      "id": 5,
+      "authorid": "42165",
+      "workid": "234809",
+      "opinion": "marked"
+    },
+    {
+      "id": 6,
+      "authorid": "42165",
+      "workid": "236779",
+      "opinion": "marked"
+    },
+    {
+      "id": 7,
+      "authorid": "42165",
+      "workid": "540823",
+      "opinion": "marked"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+section {
+  line-height: 2rem;
+  margin: 0.5rem;
+}
+
+header {
+  padding-left: 6rem;
+}
+
+h1,
+.title {
+  font-family: "Georgia", "Times New Roman", "Times", serif;
+  padding-left: 1rem;
+}
+
+.number {
+  font-family: "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+table {
+  margin-top: 0.5rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+tbody tr:hover {
+  background-color: hsl(60, 100%, 90%);
+}
+
+tbody tr.marked:hover {
+  background-color: #ffff00;
+}
+
+tbody tr.reading:hover {
+  background-color: #00ff00;
+}
+
+tbody tr.liked:hover {
+  background-color: #00ffff;
+}
+
+tbody tr.disliked:hover {
+  background-color: #cccccc;
+}
+
+tbody tr.liked .title {
+  font-weight: bold;
+}
+
+tbody tr.disliked .title {
+  text-decoration: line-through;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
+
+thead th {
+  color: #808080;
+}
+
+.title {
+  font-style: italic;
+}
+
+tbody svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon {
+  width: 1.5rem;
+  text-align: center;
+}
+
+.number {
+  padding-left: 1rem;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
