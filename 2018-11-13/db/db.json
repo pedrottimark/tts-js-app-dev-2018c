@@ -1,0 +1,104 @@
+{
+  "authors": [
+    {
+      "authordisplay": "Jan Karon",
+      "id": "15103"
+    },
+    {
+      "authordisplay": "Alexander McCall Smith",
+      "id": "42165"
+    },
+    {
+      "authordisplay": "Nassim Nicholas Taleb",
+      "id": "68695"
+    }
+  ],
+  "works": [
+    {
+      "authorid": "68695",
+      "onsaledate": "2005-08-23T00:00:00-04:00",
+      "titleweb": "Fooled by Randomness",
+      "workid": "176225"
+    },
+    {
+      "authorid": "68695",
+      "onsaledate": "2007-04-17T00:00:00-04:00",
+      "titleweb": "The Black Swan",
+      "workid": "176226"
+    },
+    {
+      "authorid": "68695",
+      "onsaledate": "2012-11-27T00:00:00-05:00",
+      "titleweb": "Antifragile",
+      "workid": "176227"
+    },
+    {
+      "authorid": "68695",
+      "onsaledate": "2010-11-30T00:00:00-05:00",
+      "titleweb": "The Bed of Procrustes",
+      "workid": "210246"
+    },
+    {
+      "authorid": "68695",
+      "onsaledate": "2016-01-26T00:00:00-05:00",
+      "titleweb": "Incerto",
+      "workid": "247576"
+    },
+    {
+      "authorid": "68695",
+      "onsaledate": "2018-02-27T00:00:00-05:00",
+      "titleweb": "Skin in the Game",
+      "workid": "537828"
+    },
+    {
+      "authorid": "68695",
+      "onsaledate": "2019-05-28T00:00:00-04:00",
+      "titleweb": "The Logic and Statistics of Fat Tails",
+      "workid": "594540"
+    }
+  ],
+  "reactions": [
+    {
+      "id": 1,
+      "authorid": "68695",
+      "reaction": "liked",
+      "workid": "176225"
+    },
+    {
+      "id": 2,
+      "authorid": "68695",
+      "reaction": "disliked",
+      "workid": "176226"
+    },
+    {
+      "id": 3,
+      "authorid": "68695",
+      "reaction": "reading",
+      "workid": "176227"
+    },
+    {
+      "id": 4,
+      "authorid": "68695",
+      "reaction": "",
+      "workid": "210246"
+    },
+    {
+      "id": 5,
+      "authorid": "68695",
+      "reaction": "",
+      "workid": "247576"
+    },
+    {
+      "id": 6,
+      "authorid": "68695",
+      "reaction": "",
+      "workid": "537828"
+    },
+    {
+      "id": 7,
+      "authorid": "68695",
+      "reaction": "marked",
+      "workid": "594540"
+    }
+  ]
+}

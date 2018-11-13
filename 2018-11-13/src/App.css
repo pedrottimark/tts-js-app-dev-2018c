@@ -1,0 +1,85 @@
+section {
+  line-height: 2rem;
+}
+
+header {
+  padding-left: 6rem;
+}
+
+h1,
+.series,
+.title {
+  font-family: "Georgia", "Times New Roman", "Times", serif;
+  padding-left: 1rem;
+}
+
+.date {
+  font-family: "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
+
+thead th {
+  color: #808080;
+}
+
+.title {
+  font-style: italic;
+}
+
+tbody .title {
+  color: #808080;
+}
+
+tr.marked .title {
+  color: #000000;
+}
+
+tr.reading .title {
+  color: #008000;
+}
+
+tr.liked .title {
+  color: #0000ff;
+}
+
+tr.disliked .title {
+  text-decoration: line-through;
+}
+
+tr.waiting td.icon {
+  background-color: #cccccc;
+}
+
+.date {
+  padding-left: 1rem;
+  text-align: right;
+}
+
+tbody svg {
+  box-sizing: content-box;
+  padding-left: 0.25rem;
+  width: 1rem;
+  padding-right: 0.25rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
