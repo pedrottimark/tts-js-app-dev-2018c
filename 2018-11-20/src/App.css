@@ -1,0 +1,307 @@
+header {
+  position: fixed;
+  z-index: 1; /* overlap aside which follows in document order */
+  width: 100%;
+  height: 2.5rem;
+  padding-top: 0.75rem;
+  border-bottom-style: solid;
+  background-color: #ffffff;
+}
+
+header,
+nav a {
+  border-color: #808080;
+  border-width: 1px;
+}
+
+h1,
+nav {
+  display: inline-block; /* side by side in header */
+}
+
+h1,
+h2 {
+  font-size: 1rem;
+  width: 12rem;
+  padding-left: 0.75rem;
+}
+
+h2 {
+  padding-top: 0.75rem;
+}
+
+h1,
+nav a {
+  height: 1.75rem;
+  line-height: 1.75rem; /* increase because links as tabs have border top and bottom */
+}
+
+a {
+  color: inherit; /* because fluids are blue */
+}
+
+abbr {
+  text-decoration-style: inherit;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a.active {
+  cursor: default;
+}
+
+nav a {
+  display: inline-block;
+  width: 8rem;
+  color: inherit;
+  text-align: center;
+  border-style: solid;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  margin-bottom: -1px;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom-color: transparent;
+}
+
+header button {
+  margin-left: 3rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+button {
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border-color: #808080;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  background-color: #fffff0;
+}
+
+main {
+  padding-top: 2.5rem;
+}
+
+img.home {
+  margin-left: 12rem; /* align with links as tabs in header and data column of table */
+  width: 48rem; /* same as width of links as tabs in header and data column of table */
+}
+
+img.not_found_404 {
+  margin-top: 3rem;
+  margin-left: 1.9rem; /* align with links as tabs in header and data column of table */
+  width: 68.2rem; /* same as width of links as tabs in header and data column of table */
+}
+
+img.plate {
+  position: absolute;
+  top: 2.5rem;
+  left: 12rem;
+  margin-top: 3rem;
+  margin-left: 6.95rem;
+  width: 34.1rem;
+}
+
+img.spinning {
+  animation: spinning infinite 20s linear;
+}
+
+@keyframes spinning {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+main.categories {
+  width: 60rem;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  padding-top: 0.75rem;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
+
+th, td {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+th:first-child {
+  padding-left: 0.75rem;
+}
+
+main.categories th:nth-child(1) {
+  width: 12rem; /* 4 portions per table row */
+}
+
+main.categories thead th:nth-child(1) {
+  font-weight: bold;
+}
+
+main.categories td {
+  min-width: 2rem;
+}
+
+main.minerals th:nth-child(1),
+main.vitamins th:nth-child(1) {
+  width: 4rem;
+}
+
+main.minerals tr > *:nth-child(2),
+main.vitamins tr > *:nth-child(2) {
+  width: 8rem;
+}
+
+main.vitamins tr > *:nth-child(3) {
+  width: 48rem;
+}
+
+main.mineral p,
+main.minerals p,
+main.vitamin p,
+main.vitamins p,
+fieldset {
+  margin-left: 0.75rem;
+}
+
+main.minerals section > div,
+main.vitamins section > div {
+  display: flex;
+}
+
+main.minerals div > div,
+main.vitamins div > div {
+    width: 24rem;
+}
+
+form {
+  margin-top: 1.5rem;
+}
+
+fieldset + fieldset {
+  margin-top: 0.5rem;
+}
+
+label:first-child {
+  display: inline-block;
+  width: 11rem;
+  margin-right: 0.5rem;
+  text-align: right;
+}
+
+label + span {
+  margin-left: 0.25rem;
+}
+
+input {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+}
+
+input[name="id"] {
+  width: 3rem;
+}
+
+input[name="name"] {
+  width: 12rem;
+}
+
+input[name="description"],
+input[name="example_foods"] {
+  width: 36rem;
+}
+
+input {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+input[name="solubility"] {
+  margin-right: 0.5rem;
+}
+
+label:nth-child(3) {
+  margin-left: 1.5rem;
+}
+
+form button {
+  margin-top: 1rem;
+  margin-left: 2.75rem;
+  width: 8rem;
+  text-align: center;
+}
+
+.limit,
+.avoid {
+  font-style: italic;
+}
+
+.avoid {
+  text-decoration: line-through;
+}
+
+main.home p {
+  margin-left: 12rem;
+  padding-left: 0.25rem;
+}
+
+main.home cite + span {
+  padding-left: 0.75rem;
+}
+
+aside {
+  position: absolute;
+  left: 60rem;
+  bottom: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+aside img {
+  width: 150px;
+}
+
+.vegetables {
+  background-color: hsl(128, 60%, 85%); /* from hsl(128, 48%, 48%) #40b44f green */
+}
+
+.fruits {
+  background-color: hsl(345, 60%, 85%); /* from hsl(345, 84%, 38%) #b3103a red */
+}
+
+.grains {
+  background-color: hsl(29, 40%, 85%); /* from hsl(29, 27%, 52%) #a58363 brown */
+}
+
+.protein {
+  background-color: hsl(26, 80%, 85%); /* from hsl(26, 79%, 54%) #e67d2d orange */
+}
+
+.oils {
+  background-color: hsl(42, 80%, 85%); /* from hsl(42, 99%, 61%) #fec43b yellow */
+}
+
+.fluids {
+  background-color: hsl(205, 60%, 85%); /* from hsl(205, 58%, 54%) #4695ce blue */
+}

@@ -1,0 +1,600 @@
+{
+  "foods": [
+    {
+      "id": "asparagus",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "beans",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "beet",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "bell_pepper",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "broccoli",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "Brussels_sprouts",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "cabbage",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "carrot",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "cauliflower",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "collard_greens",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "cucumber",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "eggplant",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "garlic",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "green_beans",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "kale",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "onion",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "peas",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "potato",
+      "foodGroup": "vegetables",
+      "recommendation": -1
+    },
+    {
+      "id": "romaine",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "spinach",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "squash",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "sweet_potato",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "tomato",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "zucchini",
+      "foodGroup": "vegetables",
+      "recommendation": 1
+    },
+    {
+      "id": "apple",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "avocado",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "banana",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "blackberry",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "blueberry",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "cherry",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "grape",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "grapefruit",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "kiwi",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "lemon",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "lime",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "mango",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "nectarine",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "orange",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "papaya",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "peach",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "pear",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "pineapple",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "plum",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "pomegranate",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "prune",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "raspberry",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "tangerine",
+      "foodGroup": "fruits",
+      "recommendation": 1
+    },
+    {
+      "id": "barley",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "bran",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "oats",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "quinoa",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "rye",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "whole_grains",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "brown_rice",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "wild_rice",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "white_rice",
+      "foodGroup": "grains",
+      "recommendation": 0
+    },
+    {
+      "id": "unrefined_flour",
+      "foodGroup": "grains",
+      "recommendation": 1
+    },
+    {
+      "id": "refined_flour",
+      "foodGroup": "grains",
+      "recommendation": 0
+    },
+    {
+      "id": "nuts",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "seeds",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "beans",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "chickpea",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "lentils",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "soybean/tofu",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "fish",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "oily_fish",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "poultry",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "egg",
+      "foodGroup": "protein",
+      "recommendation": 1
+    },
+    {
+      "id": "beef",
+      "foodGroup": "protein",
+      "recommendation": 0
+    },
+    {
+      "id": "lamb",
+      "foodGroup": "protein",
+      "recommendation": 0
+    },
+    {
+      "id": "pork",
+      "foodGroup": "protein",
+      "recommendation": 0
+    },
+    {
+      "id": "processed_meats",
+      "foodGroup": "protein",
+      "recommendation": -1
+    },
+    {
+      "id": "olive_oil",
+      "foodGroup": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "canola_oil",
+      "foodGroup": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "sesame_oil",
+      "foodGroup": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "coconut_oil",
+      "foodGroup": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "margarine",
+      "foodGroup": "oils",
+      "recommendation": 1
+    },
+    {
+      "id": "butter",
+      "foodGroup": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "yogurt",
+      "foodGroup": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "cheese",
+      "foodGroup": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "cottage_cheese",
+      "foodGroup": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "cream_cheese",
+      "foodGroup": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "ice_cream",
+      "foodGroup": "oils",
+      "recommendation": 0
+    },
+    {
+      "id": "fried_foods",
+      "foodGroup": "oils",
+      "recommendation": -1
+    },
+    {
+      "id": "water",
+      "foodGroup": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "coffee",
+      "foodGroup": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "tea",
+      "foodGroup": "fluids",
+      "recommendation": 1
+    },
+    {
+      "id": "milk",
+      "foodGroup": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "fruit_juice",
+      "foodGroup": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "alcohol",
+      "foodGroup": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "“diet”_drinks",
+      "foodGroup": "fluids",
+      "recommendation": 0
+    },
+    {
+      "id": "sugary_drinks",
+      "foodGroup": "fluids",
+      "recommendation": -1
+    }
+  ],
+  "vitamins": [
+    {
+      "id": "A",
+      "name": "retinol/beta-carotene",
+      "solubility": "fat",
+      "examples": ["carrot", "kale", "spinach", "sweet_potato"]
+    },
+    {
+      "id": "B1",
+      "name": "thiamine",
+      "solubility": "water",
+      "examples": ["brown_rice", "oats", "whole_grains", "seeds", "egg", "pork"]
+    },
+    {
+      "id": "B2",
+      "name": "riboflavin",
+      "solubility": "water",
+      "examples": ["asparagus", "green_beans", "banana", "egg", "fish", "cottage_cheese", "yogurt"]
+    },
+    {
+      "id": "B3",
+      "name": "niacin",
+      "solubility": "water",
+      "examples": ["beans", "whole_grains", "nuts", "egg", "fish", "poultry"]
+    },
+    {
+      "id": "B5",
+      "name": "pantothenic acid",
+      "solubility": "water",
+      "examples": ["beans", "broccoli", "Brussels_sprouts", "cauliflower", "avocado", "whole_grains", "nuts", "eggs", "yogurt", "milk"]
+    },
+    {
+      "id": "B6",
+      "name": "pyridoxine",
+      "solubility": "water",
+      "examples": ["sweet_potato", "banana", "whole_grains", "nuts", "egg", "fish", "poultry"]
+    },
+    {
+      "id": "B7",
+      "name": "biotin",
+      "solubility": "water",
+      "examples": []
+    },
+    {
+      "id": "B9",
+      "name": "folic acid",
+      "solubility": "water",
+      "examples": ["asparagus", "beans", "broccoli", "Brussels_sprouts", "spinach", "whole_grains", "poultry"]
+    },
+    {
+      "id": "B12",
+      "name": "colabamin",
+      "solubility": "water",
+      "examples": ["egg", "fish", "poultry", "beef", "lamb", "pork"]
+    },
+    {
+      "id": "C",
+      "name": "ascorbic acid",
+      "solubility": "water",
+      "examples": ["bell_pepper", "broccoli", "tomato", "grapefruit", "kiwi", "lemon", "lime", "orange", "pomegranate", "tangerine"]
+    },
+    {
+      "id": "D3",
+      "name": "cholecalciferol",
+      "solubility": "fat",
+      "examples": ["egg", "oily_fish"]
+    },
+    {
+      "id": "E",
+      "name": "tocopherol",
+      "solubility": "fat",
+      "examples": ["avocado", "nuts", "seeds", "whole_grains", "soybean/tofu", "egg"]
+    },
+    {
+      "id": "K1",
+      "name": "phylloquinone",
+      "solubility": "fat",
+      "examples": ["broccoli", "cabbage", "collard_greens", "spinach", "grape", "plum"]
+    }
+  ],
+  "minerals": [
+    {
+      "id": "Ca",
+      "name": "calcium",
+      "description": "needed for muscle, heart and digestive system health, builds bone, supports synthesis and function of blood cells",
+      "examples": ["beans", "broccoli", "kale", "spinach", "nuts", "seeds", "soybean/tofu", "milk"]
+    },
+    {
+      "id": "K",
+      "name": "potassium",
+      "description": "a systemic electrolyte and is essential in coregulating ATP with sodium",
+      "examples": ["beans", "beet", "carrot", "spinach", "sweet_potato", "tomato", "lentils", "avocado", "banana", "orange", "prune", "soybean/tofu", "fish", "poultry"]
+    },
+    {
+      "id": "P",
+      "name": "phosphorus",
+      "description": "a component of bones (see apatite), cells, in energy processing, in DNA and ATP (as phosphate) and many other functions",
+      "examples": ["beans", "oats", "brown_rice", "refined_flour", "nuts", "seeds", "soybean/tofu", "poultry", "beef", "lamb", "milk"]
+    },
+    {
+      "id": "Mg",
+      "name": "magnesium",
+      "description": "required for processing ATP and for bones",
+      "examples": ["beans", "cabbage", "spinach", "sweet_potato", "avocado", "nuts", "seeds", "whole_grains", "poultry", "milk"]
+    },
+    {
+      "id": "Fe",
+      "name": "iron",
+      "description": "required for many proteins and enzymes, notably hemoglobin to prevent anemia",
+      "examples": ["beans", "prune", "nuts", "seeds", "fish", "poultry", "beef", "pork"]
+    },
+    {
+      "id": "Zn",
+      "name": "zinc",
+      "description": "pervasive and required for several enzymes such as carboxypeptidase, liver alcohol dehydrogenase, and carbonic anhydrase",
+      "examples": ["whole_grains", "nuts", "seeds", "soybean/tofu", "egg", "fish", "poultry", "beef"]
+    },
+    {
+      "id": "Mn",
+      "name": "manganese",
+      "description": "a cofactor in enzyme functions",
+      "examples": ["nuts", "seeds", "coffee", "tea"]
+    },
+    {
+      "id": "Cu",
+      "name": "copper",
+      "description": "required component of many redox enzymes, including cytochrome c oxidase",
+      "examples": ["nuts", "seeds"]
+    },
+    {
+      "id": "I",
+      "name": "iodine",
+      "description": "required for synthesis of thyroid hormones, thyroxine and triiodothyronine and to prevent goiter",
+      "examples": ["egg"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72">
+<circle cx="36" cy="36" r="24" fill="#f1f1f1" stroke="#f1f1f1" stroke-width="0.75"/>
+<g transform="translate(12,12) scale(0.6667)" fill="none" stroke="#808080" stroke-width="0.75">
+<g transform="rotate(-18,36,36) translate(12,-4)">
+<title>grains</title>
+<path d="M 36,36 l 0,-24 a 24,24 0 0,1 24,24 z"/>
+</g>
+<g transform="rotate(6,36,36) translate(8,1)">
+<title>protein</title>
+<path d="M 36,36 l 24,0 a 24,24 0 0,1 -24,24 z"/>
+</g>
+<g transform="rotate(-10,36,36) translate(-5,6)">
+<title>fruits</title>
+<path d="M 36,44 l 0,16 a 24,24 0 0,1 -22.6274,-16 z"/>
+</g>
+<g transform="rotate(-20,36,36) translate(-8,-10)">
+<title>vegetables</title>
+<path d="M 36,44 l -22.6274,0 a 24,24 0 0,1 22.6274,-32 z"/>
+</g>
+</g>
+</svg>

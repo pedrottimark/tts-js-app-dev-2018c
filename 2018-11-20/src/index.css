@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5rem;
+  color: #333333;
+  font-family: "Verdana", sans-serif;
+}
