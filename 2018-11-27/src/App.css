@@ -1,0 +1,117 @@
+.App {
+  line-height: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  width: 50%;
+}
+
+td.inputs {
+  background-color: #ffff00;
+}
+
+td.bar-vertical {
+  background-color: #800080;
+}
+
+td.progress-horizontal {
+  background-color: #0000ff;
+}
+
+td.bar-horizontal {
+  background-color: #ff0000;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+section.inputs > div {
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: none;
+}
+
+button, input, select {
+  width: 8rem;
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border-color: #808080;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  background-color: #fffff0;
+}
+
+button[value="decrement"] {
+  margin-right: 1.5rem;
+}
+
+button[value="increment"] {
+  margin-left: 1.5rem;
+}
+
+label {
+  display: block;
+}
+
+label + label {
+  margin-top: 0.75rem;
+}
+
+input {
+  padding-left: 0.5rem;
+}
+
+input, select {
+  margin-left: 0.75rem;
+}
+
+svg {
+  width: 8rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+progress {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #808080;
+}
+
+progress::-webkit-progress-value {
+  background-color: #ffffff;
+}
+
+progress.horizontal {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
