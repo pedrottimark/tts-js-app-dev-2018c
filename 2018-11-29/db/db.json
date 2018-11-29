@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 4132,
+      "description": "apples, Gala, small"
+    },
+    {
+      "id": 4138,
+      "description": "apples, Granny Smith, small"
+    },
+    {
+      "id": 4152,
+      "description": "apples, McIntosh, small"
+    },
+    {
+      "id": 4011,
+      "unit": "bunch",
+      "description": "bananas, yellow"
+    },
+    {
+      "id": 4235,
+      "unit": "bunch",
+      "description": "bananas, plantain"
+    },
+    {
+      "id": 4239,
+      "unit": "package",
+      "description": "berries, blackberry"
+    },
+    {
+      "id": 4240,
+      "unit": "package",
+      "description": "berries, blueberry"
+    },
+    {
+      "id": 4318,
+      "description": "cantaloupe, East, small"
+    },
+    {
+      "id": 4078,
+      "unit": "ear",
+      "description": "corn, yellow"
+    },
+    {
+      "id": 4062,
+      "description": "cucumber, green"
+    }
+  ],
+  "purchases": [
+    {
+      "code": 4011,
+      "description": "bananas, yellow",
+      "quantity": 1,
+      "unit": "bunch",
+      "id": 1
+    },
+    {
+      "code": 4152,
+      "description": "apples, McIntosh, small",
+      "quantity": 7,
+      "id": 2
+    },
+    {
+      "code": 4239,
+      "description": "berries, blackberry",
+      "quantity": "4",
+      "unit": "package",
+      "id": 3
+    }
+  ]
+}

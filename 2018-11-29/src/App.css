@@ -1,0 +1,137 @@
+.App {
+  padding: 0.75rem;
+  line-height: 1.5rem;
+}
+
+header {
+  display: flex;
+}
+
+header h1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+header p {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-left: 1.5rem;
+  text-align: right;
+  color: #ff00ff;
+}
+
+form {
+  margin-top: 1.5rem;
+}
+
+fieldset + fieldset {
+  margin-top: 0.75rem;
+}
+
+button, input {
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.25rem;
+}
+
+form button {
+  margin-left: 1.5rem;
+  color: hsl(180, 100%, 25%);
+  background-color: hsl(180, 100%, 95%);
+}
+
+form button,
+label span {
+  width: 8rem;
+}
+
+label span {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding-right: 0.75rem;
+  text-align: right;
+}
+
+input {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+input[name="code"],
+input[name="quantity"] {
+  width: 4rem;
+}
+
+input[name="description"] {
+  width: 13.5rem;
+  border-color: transparent;
+}
+
+input.code:disabled,
+input.quantity:disabled,
+button:disabled {
+  color: #808080;
+  background-color: #dddddd;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 1.5rem;
+}
+
+tr {
+  vertical-align: baseline;
+}
+
+th {
+  font-size: 0.75rem;
+  font-weight: normal;
+  text-align: left;
+  border-bottom-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+}
+
+.code {
+  width: 8rem;
+  padding-right: 0.75rem;
+  text-align: right;
+}
+
+.description {
+  width: 13.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.quantity {
+  width: 4rem;
+  padding-left: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: right;
+}
+
+.unit {
+  width: 6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.delete {
+  width: 6rem;
+}
+
+.delete button {
+  width: 6rem;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  color: #ff0000;
+  background-color: hsl(0, 100%, 90%);
+}
